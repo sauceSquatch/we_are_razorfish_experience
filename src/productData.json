@@ -1,0 +1,47 @@
+[
+  {
+    "id":0,
+    "heading": "Washers",
+    "products": [
+      {
+        "id":0,
+        "title": "WW6800 2.2 cu. ft. Front Load Washer with Super Speed (White)",
+        "description": "some description",
+        "images": [
+          "/images/washers_WW6800_1.jpg",
+          "/images/washers_WW6800_2.jpg",
+          "/images/washers_WW6800_3.jpg"
+        ],
+        "price": "999"
+      }
+    ]
+  },
+  {
+    "id":1,
+    "heading": "Refrigerators",
+    "products": [
+      {
+        "id":0,
+        "title": "23 cu. ft. Capacity Counter Depth 4-Door Flex™ Refrigerator with FlexZone™ (Stainless Steel)",
+        "description": "some description",
+        "images": [
+          "/images/refrigerator_23cu_1.jpg",
+          "/images/refrigerator_23cu_2.jpg",
+          "/images/refrigerator_23cu_3.jpg"
+        ],
+        "price": "999"
+      },
+      {
+        "id":1,
+        "title": "36” Wide X 72” High, 22 cu. ft. Capacity Counter Depth 4-Door Flex™ Food Showcase Refrigerator with FlexZone™ ( Black Stainless Steel)",
+        "description": "some description",
+        "images": [
+          "/images/refrigerator_36cu_1.png",
+          "/images/refrigerator_36cu_2.png",
+          "/images/refrigerator_36cu_3.png"
+        ],
+        "price": "1,199"
+      }
+    ]
+  }
+]

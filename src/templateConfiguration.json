@@ -1,0 +1,8 @@
+{
+  "templates": {
+    "productsDisplay": true
+  },
+  "style-config": {
+    "theme-lightness": "#FFF"
+  }
+}

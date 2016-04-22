@@ -35,6 +35,6 @@ The initial commit of the project is a clone of [React Slingshot](https://github
 
 - clean out prvious project assets
 - set up architecture 
-  > main - initialize - load data - pass data to people view
-  > people view - handle radomizing and displaying active person - transitions between person views
-  > person view - plays video - handles transition on and off animations - dispatches event when video is complete
+  -- main - initialize - load data - pass data to people view
+  -- people view - handle radomizing and displaying active person - transitions between person views
+  -- person view - plays video - handles transition on and off animations - dispatches event when video is complete

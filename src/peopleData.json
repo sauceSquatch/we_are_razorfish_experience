@@ -1,0 +1,49 @@
+{
+  "config": {
+    "videoTime": 10
+  },
+  "people": [
+    {
+      "id": 0,
+      "name": "John Doe",
+      "title": "Sr. Interactive Specialist",
+      "video": "../videos/001_johnDoe"
+    },
+    {
+      "id": 1,
+      "name": "Tabitha Thecat",
+      "title": "Sr. Copywritter",
+      "video": "../videos/001_johnDoe"
+    },
+    {
+      "id": 2,
+      "name": "Harry Henderson",
+      "title": "Sr. Sasquatch",
+      "video": "../videos/001_johnDoe"
+    },
+    {
+      "id": 3,
+      "name": "Tall Man",
+      "title": "Creepster",
+      "video": "../videos/001_johnDoe"
+    },
+    {
+      "id": 4,
+      "name": "Parker Paul",
+      "title": "Associate Motion Director",
+      "video": "../videos/001_johnDoe"
+    },
+    {
+      "id": 5,
+      "name": "Luther Himes",
+      "title": "Sr. to the Associate Motion Director",
+      "video": "../videos/001_johnDoe"
+    },
+    {
+      "id": 6,
+      "name": "Moon Unit Zappa",
+      "title": " actress and author",
+      "video": "../videos/001_johnDoe"
+    }
+  ]
+}

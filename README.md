@@ -1,15 +1,14 @@
-# PoC: Configurable React Template Generator
+# People of Razorfish
 
-## Goals
+## Goal of project
 
-The goal of this Proof of Concept is to see if, given an object of JSON variables, we can compile a set of templates into an easily integrated format. It may be possible to generate a single javascript file that renders the entire page if included.
+The goal of this project is to have a self running carousel of full screen (100% of browser). 
 
-A sibling project, given that this one is successful, would be to create a customer-facing `form` that generates the JSON this PoC uses and sends it to this PoC (presumably running as a separate container/service) to have this PoC's output sent back.
+## RUN
 
-This ease of integration could benefit our clients by enabling them the ability to provide their desired HTML/CSS/JS to their vendors.
+    npm run start
 
-The sibling project's benefit would be in enabling them to create co-branded experiences, so that their templates are not visually out-of-place in the context of other vendor's websites.
-
+will start server on http://localhost:3000/
 
 ## Stack
 
@@ -33,3 +32,9 @@ The initial commit of the project is a clone of [React Slingshot](https://github
 - reconfigure production output to inlude styles within the javascript, then injecting into a single style tag rather than outputting a separate `style.css` file
 - turn it into a node service that takes a json file it's sent and runs production dist commands, then sends the output back
 - to support information generated on the client's vendor's server, create a PoC API for a component type (product image/link/name/description?) and ensure that the vendor's server can configure these things from outside of our generated file
+
+- clean out prvious project assets
+- set up architecture 
+  > main - initialize - load data - pass data to people view
+  > people view - handle radomizing and displaying active person - transitions between person views
+  > person view - plays video - handles transition on and off animations - dispatches event when video is complete

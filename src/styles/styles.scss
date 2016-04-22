@@ -1,4 +1,4 @@
-@import "../templateConfiguration.json";
+// @import "../templateConfiguration.json";
 
 
 /* Variables */
@@ -9,11 +9,11 @@ $color-green: #60b044;
 $color-red: #ff0000;
 
 // Configurable "Parent" Variables
-$theme-lightness: map-get($style-config, theme-lightness);
+// $theme-lightness: map-get($style-config, theme-lightness);
 
 /* Styles */
 body {
-  background: $theme-lightness;
+  // background: $theme-lightness;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
   color: #4d4d4d;

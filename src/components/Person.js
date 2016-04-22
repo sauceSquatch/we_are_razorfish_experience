@@ -4,8 +4,8 @@ const Person = React.createClass({
   propTypes: {
     id: React.PropTypes.string.isRequired,
     name: React.PropTypes.string.isRequired,
-    title: React.PropTypes.array.isRequired
-    video: React.PropTypes.array.isRequired
+    title: React.PropTypes.string.isRequired,
+    video: React.PropTypes.string.isRequired
   },
   render() {
     return(

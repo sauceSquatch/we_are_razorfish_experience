@@ -3,16 +3,20 @@ import Person from './Person'
 
 const PeopleView = React.createClass({
 
+  propTypes: {
+    peopleData: React.PropTypes.array.isRequired
+  },
+
   render() {
     return(
-      <div className="products-display">
-        {this.state.peopleData.map( person => {
+      <div className="people-display">
+        {this.props.peopleData.map( person => {
           return (
             <Person
               key={person.id}
-              name={person.heading}
+              name={person.name}
               title={person.title}
-              video={person.products}
+              video={person.video}
             />
           )
         })}

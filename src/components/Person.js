@@ -13,6 +13,7 @@ const Person = React.createClass({
         <h3>{this.props.name}</h3>
         <p>{this.props.title}</p>
         <p>{this.props.video}</p>
+        <video src={this.props.video} controls=""></video>
       </div>
     )
   }

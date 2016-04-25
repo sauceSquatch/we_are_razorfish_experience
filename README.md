@@ -34,6 +34,7 @@ The initial commit of the project is a clone of [React Slingshot](https://github
 - to support information generated on the client's vendor's server, create a PoC API for a component type (product image/link/name/description?) and ensure that the vendor's server can configure these things from outside of our generated file
 
 - clean out prvious project assets
+- need to update the peopleView so it holds the data, but only builds out two person elements to reduce memory usage
 - set up architecture 
   -- main - initialize - load data - pass data to people view
   -- people view - handle radomizing and displaying active person - transitions between person views

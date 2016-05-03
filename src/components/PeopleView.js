@@ -1,6 +1,8 @@
 import React from 'react'
 import Person from './Person'
-var TweenLite = require('../../greensock/TweenLite.js')
+// var TweenLite = require('../../greensock/TweenLite.js')
+
+const TweenLite = window.TweenLite
 
 const PeopleView = React.createClass({
 
@@ -15,9 +17,8 @@ const PeopleView = React.createClass({
   },
 
   componentDidMount: function() {
-    console.log(JSON.stringify(TweenLite))
-    var main = this.refs.mainPerson;
-    // TweenLite.to(main, 0.4, {x:500});
+    console.log(TweenLite)
+
   },
 
   nextPerson: function() {
@@ -31,6 +32,9 @@ const PeopleView = React.createClass({
     this.setState(function(state) {
       return {currentId: this.activeId};
     });
+    // var main = this.refs.mainPerson;
+    // TweenLite.to(main, 0.4, {x:500});
+    // console.log(main)
   },
 
   transitionOut: function() {

@@ -2,7 +2,6 @@ import React from 'react'
 
 const Person = React.createClass({
   propTypes: {
-    id: React.PropTypes.string.isRequired,
     name: React.PropTypes.string.isRequired,
     title: React.PropTypes.string.isRequired,
     video: React.PropTypes.string.isRequired

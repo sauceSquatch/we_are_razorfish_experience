@@ -17,7 +17,11 @@ const PeopleView = React.createClass({
   },
 
   componentDidMount: function() {
-    console.log(TweenLite)
+    console.log(window.TweenLite)
+    // var main = ReactDOM.findDOMNode(this)
+    var main = this.refs.mainPerson
+    console.log("main: ", main)
+    window.TweenLite.to(main, 0.4, {x:500});
 
   },
 
@@ -32,9 +36,10 @@ const PeopleView = React.createClass({
     this.setState(function(state) {
       return {currentId: this.activeId};
     });
-    // var main = this.refs.mainPerson;
-    // TweenLite.to(main, 0.4, {x:500});
-    // console.log(main)
+
+    var main = this.refs.mainPerson;
+    
+    window.TweenLite.to(main, 0.4, {x:500});
   },
 
   transitionOut: function() {
@@ -48,6 +53,7 @@ const PeopleView = React.createClass({
 
         <Person
           ref="mainPerson"
+          id="mainPerson"
           key={this.props.peopleData[this.state.currentId].id}
           name={this.props.peopleData[this.state.currentId].name}
           title={this.props.peopleData[this.state.currentId].title}

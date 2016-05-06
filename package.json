@@ -62,7 +62,9 @@
     "style-loader": "0.13.1",
     "webpack": "1.12.15",
     "webpack-dev-middleware": "1.6.1",
-    "webpack-hot-middleware": "2.10.0"
+    "webpack-hot-middleware": "2.10.0",
+    "gsap": "1.18.4",
+    "react-gsap-enhancer": "0.2.2"
   },
   "keywords:": [
     "react",
